@@ -38,7 +38,7 @@ AMILE is not a content delivery system like Khan Academy or DreamBox. It is a cl
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 amile/
