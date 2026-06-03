@@ -9,7 +9,7 @@ from enum import Enum as PyEnum
 
 
 class GradeLevel(str, PyEnum):
-    G6 = "6"; G7 = "7"; G8 = "8"; G9 = "9"; G10 = "10"; G11 = "11"; G12 = "12"
+    G9 = "9"; G10 = "10"; G11 = "11"; G12 = "12"
 
 
 class Student(Base):
