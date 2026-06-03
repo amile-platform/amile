@@ -11,19 +11,19 @@
 
 ---
 
-## 🎯 What is AMILE?
+## What is AMILE?
 
-AMILE is **not** a content delivery system like Khan Academy or DreamBox. It is a **closed-loop instructional intelligence infrastructure** that:
+AMILE is not a content delivery system like Khan Academy or DreamBox. It is a closed-loop instructional intelligence infrastructure that:
 
-- 📊 **Monitors** thousands of discrete student mathematical interactions in real-time using Deep Knowledge Tracing (DKT) ensembles
-- 🧠 **Identifies** specific cognitive misconceptions at the sub-skill level using Explainable AI (XAI)
-- 🎯 **Generates** standards-aligned, project-based learning modules tailored to each student's cultural context and reading level
-- 🤖 **Provides** reinforcement-trainable AI teaching assistants that improve through student and educator feedback
-- 📈 **Produces** predictive equity dashboards for school districts to proactively allocate resources before achievement gaps manifest
+-  **Monitors** thousands of discrete student mathematical interactions in real-time using Deep Knowledge Tracing (DKT) ensembles
+-  **Identifies** specific cognitive misconceptions at the sub-skill level using Explainable AI (XAI)
+-  **Generates** standards-aligned, project-based learning modules tailored to each student's cultural context and reading level
+-  **Provides** reinforcement-trainable AI teaching assistants that improve through student and educator feedback
+-  **Produces** predictive equity dashboards for school districts to proactively allocate resources before achievement gaps manifest
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -83,7 +83,7 @@ amile/
 
 ---
 
-## 🚀 Quick Start (MVP)
+## Quick Start (MVP)
 
 The fastest way to run AMILE locally:
 
@@ -105,7 +105,7 @@ docker-compose up --build
 
 ---
 
-## 🛠️ Full Platform Setup
+##  Full Platform Setup
 
 ### Prerequisites
 - Python 3.11+
@@ -143,7 +143,7 @@ python training/train_bkt.py    # Train BKT model
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 # Backend tests
@@ -158,7 +158,7 @@ cd ml && python evaluation/evaluate_models.py
 
 ---
 
-## 📊 Key Metrics Tracked
+##  Key Metrics Tracked
 
 | Metric | Target | Measurement |
 |--------|--------|-------------|
@@ -170,7 +170,7 @@ cd ml && python evaluation/evaluate_models.py
 
 ---
 
-## 🔒 Compliance & Privacy
+##  Compliance & Privacy
 
 - **FERPA compliant**: All student data encrypted at rest (AES-256) and in transit (TLS 1.3)
 - **COPPA compliant**: Parental consent workflows for students under 13
@@ -179,21 +179,21 @@ cd ml && python evaluation/evaluate_models.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for development guidelines.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Gordon Nsiah**  
 MS Applied Mathematics, Ohio University  
 Data Analyst & STEM Education Specialist  
-📧 gordon.nsiah@amile.io
+gordon.nsiah@amile.io
